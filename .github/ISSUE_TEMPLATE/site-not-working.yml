@@ -1,0 +1,36 @@
+name: Subtitles not detected on a site
+description: The extension doesn't style the subtitles on a website.
+title: "Subtitles not detected on "
+labels: ["site report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Please check subtitles (**CC**) are switched on in the player first.
+        Reports are public, so please don't include personal information.
+  - type: input
+    id: site
+    attributes:
+      label: Website
+      description: The site's address, e.g. example.com
+      placeholder: example.com
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: For example, "Subtitles show but aren't bolded", or "The popup says no subtitles found".
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics
+      description: Filled in automatically when you use "Report this site" in the popup. Otherwise click "Copy diagnostics" in the popup and paste here.
+      render: text
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version (optional)
+      placeholder: e.g. Chrome 131 on Windows 11
