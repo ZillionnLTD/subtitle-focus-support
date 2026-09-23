@@ -35,8 +35,7 @@ No GitHub account? Email **dev@zillionn.com** instead.
 ## Privacy
 
 The extension collects no data. Read the full
-[privacy policy](https://zillionn.com/subtitle-focus/privacy) (also in
-[PRIVACY.md](PRIVACY.md)).
+[privacy policy](PRIVACY.md).
 
 ## Support development
 
