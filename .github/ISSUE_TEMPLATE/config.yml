@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Email support
+    url: mailto:dev@zillionn.com
+    about: No GitHub account? Email us instead.
+  - name: Privacy policy
+    url: https://zillionn.com/subtitle-focus/privacy
+    about: What the extension does (and doesn't do) with your data.

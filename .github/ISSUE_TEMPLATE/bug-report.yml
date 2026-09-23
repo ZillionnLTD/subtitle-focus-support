@@ -1,0 +1,24 @@
+name: Something else isn't working
+description: Report any other problem with Subtitle Focus.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Reports are public, so please don't include personal information.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: site
+    attributes:
+      label: Website (if it's about a specific site)
+      placeholder: example.com
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version (optional)
+      placeholder: e.g. Chrome 131 on Windows 11
